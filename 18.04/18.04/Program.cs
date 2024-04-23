@@ -8,5 +8,10 @@
         tablice.Powitanie();
 
         int[] tab = tablice.StworzTablice();
+
+        tablice.WyswietlTab(tab);
+
+        tablice.SortowanieBb(tab);
+        tablice.WyswietlTab(tab);
     }
 }
